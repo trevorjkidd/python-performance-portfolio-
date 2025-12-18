@@ -8,11 +8,11 @@ resulting in high interpreter overhead for large inputs.
 - Reduced unnecessary intermediate array creation
 - Ensured output remained identical to the original implementation
 
-## Results
-- Before: ~XX.X seconds
-- After:  ~X.X seconds
-- Speedup: ~X× (input-size dependent)
-
 ## Validation
 - Outputs match the original implementation
 - Verified correctness on both small and large inputs
+
+## Results
+- Before: 6.83 seconds
+- After:  0.41 seconds
+- Speedup: 16.6×
